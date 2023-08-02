@@ -18,6 +18,7 @@ the_folders.DIR_DATA_CLEAN = os.path.join(the_folders.DIR_DATA, "clean")
 the_files = prjSettings()
 
 the_files.ATTRITION = os.path.join(the_folders.DIR_DATA_RAW, "WA_Fn-UseC_-HR-Employee-Attrition.csv")
+the_files.ROBYN_DATA = os.path.join(the_folders.DIR_DATA_RAW, "dt_simulated_weekly.csv")
 
 the_files.CFG_FILE = os.path.join(the_folders.DIR_ROOT, "config.ini")
 
