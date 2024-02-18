@@ -14,6 +14,9 @@ the_folders.DIR_DATA = os.path.join(the_folders.DIR_ROOT, "data")
 the_folders.DIR_DATA_RAW = os.path.join(the_folders.DIR_DATA, "raw")
 the_folders.DIR_DATA_CLEAN = os.path.join(the_folders.DIR_DATA, "clean")
 
+the_folders.DIR_OUTPUTS = os.path.join(the_folders.DIR_ROOT, "outputs")
+the_folders.DIR_OUTPUTS_FILES = os.path.join(the_folders.DIR_OUTPUTS, "files")
+
 ### FILES
 the_files = prjSettings()
 
