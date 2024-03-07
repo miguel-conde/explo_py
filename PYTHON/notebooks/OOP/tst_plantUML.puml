@@ -1,0 +1,16 @@
+@startuml
+
+Person <|-- Student
+
+class Person {
+    + Integer age
+    + String name
+    + String greet()
+    }
+
+class Student {
+    + student_id : String 
+    + study() : String 
+    }
+
+@enduml
